@@ -1,0 +1,12 @@
+{application, ets_queue,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ets_queue_app, []}},
+  {env, []}
+ ]}.

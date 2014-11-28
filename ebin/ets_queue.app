@@ -1,0 +1,9 @@
+{application,ets_queue,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{ets_queue_app,[]}},
+              {env,[]},
+              {modules,[ets_queue_app,ets_queue_config,ets_queue_sup,
+                        queue_sup,queue_worker]}]}.
